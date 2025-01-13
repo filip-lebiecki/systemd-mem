@@ -1,0 +1,7 @@
+[Unit]
+Description=Memory limit
+
+[Slice]
+MemoryMax=1000M
+MemorySwapMax=500M
+MemoryHigh=900M

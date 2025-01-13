@@ -1,0 +1,6 @@
+[Unit]
+Description=Memory leak
+
+[Service]
+Slice=mem.slice
+ExecStart=/root/memleak
